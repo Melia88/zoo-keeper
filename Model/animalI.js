@@ -5,8 +5,7 @@ export default class Iguana{
     this.temper = temper
     this.color = color
   }
+  dance(party){
+    console.log(`Iguanas like ${this.title} are fun and love ${party}'s!`)
+  }
 }
-
-let iggy = new Iguana('Iggy', 'Fun Loving', 'green');
-
- console.log('iggy was here')

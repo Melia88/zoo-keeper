@@ -36,6 +36,10 @@ let lilG = new Giraffe('lil G', '7feet')
 
 let penny = new Hippo('Penny', '800lbs')    
     penny.music('salsa')
+
+let iggy = new Iguana('Iggy', 'Fun Loving', 'green')
+    iggy.dance('birthday')
+    
   // NOTE This is creating a group of like items. You create the array with the instance of the class not the class itself.
 let animals = []
  animals.push(angel, koda)
