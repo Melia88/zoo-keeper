@@ -8,6 +8,9 @@ import Cat from './Model/animalC.js';
 import animalC from './Model/animalC.js'
 import Dog from './Model/animalD.js'
 import Elephant from './Model/animalE.js'
+import Giraffe from './Model/animalG.js'
+import Hippo from './Model/animalH.js'
+import Iguana from './Model/animalI.js'
 
 // let ally is creating an instance(instantiating) of the class Anteater.
 let ally = new Anteater('Ally', 2, 'F')
@@ -28,9 +31,16 @@ let dunks = new Elephant('Dunks', 'Asia', 'large', true)
     console.log(dunks)
   dunks.swim('muddy water')
 
+let lilG = new Giraffe('lil G', '7feet')
+    console.log(lilG)
+
+let penny = new Hippo('Penny', '800lbs')    
+    penny.music('salsa')
   // NOTE This is creating a group of like items. You create the array with the instance of the class not the class itself.
 let animals = []
  animals.push(angel, koda)
  console.log(animals)
  animals.push(jace)
  console.log(animals)
+
+ animals.push()
